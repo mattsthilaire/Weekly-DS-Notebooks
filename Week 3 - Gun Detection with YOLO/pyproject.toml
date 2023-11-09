@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "week 3 - gun detection with yolo"
+version = "0.1.0"
+description = ""
+authors = ["MattStHilaire"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.13"
+torch = "^2.1.0"
+ultralytics = "^8.0.208"
+matplotlib = "^3.8.1"
+numpy = "^1.26.1"
+pandas = "^2.1.2"
+seaborn = "^0.13.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

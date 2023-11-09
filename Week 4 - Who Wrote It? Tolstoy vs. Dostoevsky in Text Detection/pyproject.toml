@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "week 4 - who wrote it? tolstoy vs- dostoevsky"
+version = "0.1.0"
+description = ""
+authors = ["MattStHilaire"]
+readme = "README.md"
+packages = [{include = "week 4 _ who wrote it?: tolstoy vs"}]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.13"
+transformers = "^4.35.0"
+torch = "^2.1.0"
+numpy = "^1.26.1"
+pandas = "^2.1.2"
+requests = "^2.31.0"
+matplotlib = "^3.8.1"
+datasets = "^2.14.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
